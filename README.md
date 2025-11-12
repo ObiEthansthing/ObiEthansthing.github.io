@@ -3,6 +3,10 @@
 <head>
   <meta charset="UTF-8" />
   <title>How Websites Work - Book</title>
+
+  <!-- ✅ Favicon (Computer Icon) -->
+  <link rel="icon" href="https://em-content.zobj.net/source/microsoft-teams/363/laptop_1f4bb.png" type="image/png">
+
   <style>
     body {
       margin: 0;
@@ -79,16 +83,20 @@
     code {
       font-family: Consolas, monospace;
     }
+
+    .Html-one{
+      color: rgb(255,215,0);
+    }
   </style>
 </head>
 <body>
 
 <div class="book-container">
   <div class="page active">
-    <h2>Page 1: What Makes Up a Website?</h2>
+    <h2> What Makes Up a Website?</h2>
     <p>Websites are built using 3 core technologies:</p>
     <ul>
-      <li><strong>HTML</strong> – Structure and content</li>
+      <li class="Html-one"> <strong>HTML</strong> – Structure and content</li>
       <li><strong>CSS</strong> – Style and layout</li>
       <li><strong>JavaScript</strong> – Interactivity</li>
     </ul>
@@ -96,7 +104,7 @@
   </div>
 
   <div class="page">
-    <h2>Page 2: What is HTML?</h2>
+    <h2> What is HTML?</h2>
     <p><strong>HTML (HyperText Markup Language)</strong> is used to structure content on the web.</p>
     <p>Example:</p>
     <pre><code>&lt;h1&gt;Welcome!&lt;/h1&gt;
@@ -105,7 +113,7 @@
   </div>
 
   <div class="page">
-    <h2>Page 3: What is CSS?</h2>
+    <h2> What is CSS?</h2>
     <p><strong>CSS (Cascading Style Sheets)</strong> controls how your website looks. Example:</p>
     <pre><code>h1 {
   color: blue;
@@ -115,7 +123,7 @@
   </div>
 
   <div class="page">
-    <h2>Page 4: What is JavaScript?</h2>
+    <h2> What is JavaScript?</h2>
     <p><strong>JavaScript</strong> adds interactivity like buttons, sliders, games, and more.</p>
     <p>Example:</p>
     <pre><code>alert("Hello!");</code></pre>
@@ -123,7 +131,7 @@
   </div>
 
   <div class="page">
-    <h2>Page 5: How It All Works Together</h2>
+    <h2> How It All Works Together</h2>
     <p>In a real website:</p>
     <ul>
       <li><strong>HTML</strong> creates the structure</li>
@@ -165,3 +173,4 @@
 
 </body>
 </html>
+
