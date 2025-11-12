@@ -84,8 +84,17 @@
       font-family: Consolas, monospace;
     }
 
-    .Html-one{
-      color: rgb(255,215,0);
+    /* 🎨 Color classes for each technology */
+    .html-color {
+      color: #7f8c8d; /* Neutral gray – solid base */
+    }
+
+    .css-color {
+      color: #3498db; /* Bright blue – stylish and vibrant */
+    }
+
+    .js-color {
+      color: #27ae60; /* Fresh green – dynamic and interactive */
     }
   </style>
 </head>
@@ -93,18 +102,18 @@
 
 <div class="book-container">
   <div class="page active">
-    <h2> What Makes Up a Website?</h2>
+    <h2>What Makes Up a Website?</h2>
     <p>Websites are built using 3 core technologies:</p>
     <ul>
-      <li class="Html-one"> <strong>HTML</strong> – Structure and content</li>
-      <li><strong>CSS</strong> – Style and layout</li>
-      <li><strong>JavaScript</strong> – Interactivity</li>
+      <li class="html-color"><strong>HTML</strong> – Structure and content</li>
+      <li class="css-color"><strong>CSS</strong> – Style and layout</li>
+      <li class="js-color"><strong>JavaScript</strong> – Interactivity</li>
     </ul>
     <p>Together, they form the building blocks of all modern websites.</p>
   </div>
 
   <div class="page">
-    <h2> What is HTML?</h2>
+    <h2>What is HTML?</h2>
     <p><strong>HTML (HyperText Markup Language)</strong> is used to structure content on the web.</p>
     <p>Example:</p>
     <pre><code>&lt;h1&gt;Welcome!&lt;/h1&gt;
@@ -113,7 +122,7 @@
   </div>
 
   <div class="page">
-    <h2> What is CSS?</h2>
+    <h2>What is CSS?</h2>
     <p><strong>CSS (Cascading Style Sheets)</strong> controls how your website looks. Example:</p>
     <pre><code>h1 {
   color: blue;
@@ -123,7 +132,7 @@
   </div>
 
   <div class="page">
-    <h2> What is JavaScript?</h2>
+    <h2>What is JavaScript?</h2>
     <p><strong>JavaScript</strong> adds interactivity like buttons, sliders, games, and more.</p>
     <p>Example:</p>
     <pre><code>alert("Hello!");</code></pre>
@@ -131,12 +140,12 @@
   </div>
 
   <div class="page">
-    <h2> How It All Works Together</h2>
+    <h2>How It All Works Together</h2>
     <p>In a real website:</p>
     <ul>
-      <li><strong>HTML</strong> creates the structure</li>
-      <li><strong>CSS</strong> styles it beautifully</li>
-      <li><strong>JavaScript</strong> makes it interactive</li>
+      <li class="html-color"><strong>HTML</strong> creates the structure</li>
+      <li class="css-color"><strong>CSS</strong> styles it beautifully</li>
+      <li class="js-color"><strong>JavaScript</strong> makes it interactive</li>
     </ul>
     <p>You now understand the basics of how websites work!</p>
   </div>
@@ -173,4 +182,5 @@
 
 </body>
 </html>
+
 
