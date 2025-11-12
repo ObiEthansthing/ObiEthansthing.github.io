@@ -4,8 +4,9 @@
   <meta charset="UTF-8" />
   <title>How Websites Work - Book</title>
 
-  <!-- ✅ Favicon (Computer Icon) -->
-  <link rel="icon" href="https://em-content.zobj.net/source/microsoft-teams/363/laptop_1f4bb.png" type="image/png">
+  <!-- ✅ Working Favicon (Computer Icon) -->
+<link rel="icon" href="computer.png" type="image/png">
+
 
   <style>
     body {
@@ -182,5 +183,6 @@
 
 </body>
 </html>
+
 
 
